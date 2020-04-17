@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa90c5f0-84cf-4ca0-abcd-8d77361ebb5b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5E987EA5-8F08-4FFA-B883-6B3B7817F9A8/c8/0827d603/IResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.config/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Function.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5E987EA5-8F08-4FFA-B883-6B3B7817F9A8/7e/99646166/BufferedResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Quantum/Assets/Scripts/MainSceneController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/.config/NuGet/NuGet.Config" />
+        <option value="$PROJECT_DIR$/Function.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZeBYUN3CJpNgHaF1xIt71C4S9h" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa90c5f0-84cf-4ca0-abcd-8d77361ebb5b" name="Default Changelist" comment="" />
+      <created>1585189726341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585189726341</updated>
+      <workItem from="1585189728311" duration="86000" />
+      <workItem from="1585189857669" duration="1997000" />
+      <workItem from="1585206289675" duration="553000" />
+      <workItem from="1585269546768" duration="8274000" />
+      <workItem from="1585557849560" duration="761000" />
+      <workItem from="1586155553599" duration="2020000" />
+      <workItem from="1586240144380" duration="1655000" />
+      <workItem from="1586395047143" duration="1141000" />
+      <workItem from="1586491861319" duration="1712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="1360" y="470" key="Rider.ProjectTemplateDialog.Size" timestamp="1586395146954">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1360" y="470" key="Rider.ProjectTemplateDialog.Size/-1280.1023.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1586395146954" />
+    <state x="1802" y="496" key="SettingsEditor" timestamp="1585271772052">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1802" y="496" key="SettingsEditor/-1280.915.1280.777/0.23.3008.1669@0.23.3008.1669" timestamp="1585271772052" />
+  </component>
+</project>

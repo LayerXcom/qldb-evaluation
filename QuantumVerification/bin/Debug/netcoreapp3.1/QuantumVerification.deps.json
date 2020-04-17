@@ -1,0 +1,300 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "QuantumVerification/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.0-beta",
+          "AWSSDK.QLDB": "3.5.0-beta",
+          "Amazon.IonDotnet": "0.9.0-beta",
+          "Amazon.IonHashDotnet": "0.9.0-beta",
+          "Amazon.QLDB.Driver": "0.1.0-beta"
+        },
+        "runtime": {
+          "QuantumVerification.dll": {}
+        }
+      },
+      "Amazon.IonDotnet/0.9.0-beta": {
+        "runtime": {
+          "lib/netcoreapp2.1/Amazon.IonDotnet.dll": {
+            "assemblyVersion": "0.9.0.0",
+            "fileVersion": "0.9.0.0"
+          }
+        }
+      },
+      "Amazon.IonHashDotnet/0.9.0-beta": {
+        "dependencies": {
+          "Amazon.IonDotnet": "0.9.0-beta",
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.IonHashDotnet.dll": {
+            "assemblyVersion": "0.9.0.0",
+            "fileVersion": "0.9.0.0"
+          }
+        }
+      },
+      "Amazon.QLDB.Driver/0.1.0-beta": {
+        "dependencies": {
+          "AWSSDK.QLDBSession": "3.3.100.57",
+          "Amazon.IonHashDotnet": "0.9.0-beta",
+          "Microsoft.Extensions.Logging": "3.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.QLDB.Driver.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.5.0-beta": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "AWSSDK.QLDB/3.5.0-beta": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.0-beta"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.QLDB.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "AWSSDK.QLDBSession/3.3.100.57": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.0-beta"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.QLDBSession.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.100.57"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.Configuration/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "3.1.1",
+          "Microsoft.Extensions.DependencyInjection": "3.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.1",
+          "Microsoft.Extensions.Options": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.1",
+          "Microsoft.Extensions.Primitives": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuantumVerification/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.IonDotnet/0.9.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irTTKbIVIANVLkaAPCKzImsO2SnAcK7/Pg8HduDVRp4hzWrLbSQeOeoR5hphwSsk6p6N2qD7CN9QZowlCIlRdw==",
+      "path": "amazon.iondotnet/0.9.0-beta",
+      "hashPath": "amazon.iondotnet.0.9.0-beta.nupkg.sha512"
+    },
+    "Amazon.IonHashDotnet/0.9.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t5fJClfxSzxKYgav3x3F+tteoHL73ED3q71Ve+NFx5zONDHmiGjzXeQQDvT+SWWHc1lQaFOSnsOzNJpIi9sqvw==",
+      "path": "amazon.ionhashdotnet/0.9.0-beta",
+      "hashPath": "amazon.ionhashdotnet.0.9.0-beta.nupkg.sha512"
+    },
+    "Amazon.QLDB.Driver/0.1.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jeWAQX+qQidwRZ5JXYnHebiSFpI0r7krBZbwZ9rKgT6Le1d/5yziBrHOlggQ4pit8bD3A4eY7qKLMb9mulRlHA==",
+      "path": "amazon.qldb.driver/0.1.0-beta",
+      "hashPath": "amazon.qldb.driver.0.1.0-beta.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.5.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZRFwKVPowoB87Fgof6F9Vxr/6/3TvAc7Pc17S74oUCCEbPnMLZtELqEREDiWMqkUYZxwcFrgmpML8LQl792XzA==",
+      "path": "awssdk.core/3.5.0-beta",
+      "hashPath": "awssdk.core.3.5.0-beta.nupkg.sha512"
+    },
+    "AWSSDK.QLDB/3.5.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EABIIrlfPAD0y9UfOgjL0AOVnkiE5WRij+YkT9JAjXzX01UciTTRsCHGwnFMMPkU1Akl+Si5EM/ewTlCDU7UaA==",
+      "path": "awssdk.qldb/3.5.0-beta",
+      "hashPath": "awssdk.qldb.3.5.0-beta.nupkg.sha512"
+    },
+    "AWSSDK.QLDBSession/3.3.100.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lexh/t66vxgRqa93ZHvlN8EA9tqqp9KzUfnfi4G0OPxiuUSX4jZvRpM13mWf6o9O1bDSFy9VkB1rbmPQcViDWA==",
+      "path": "awssdk.qldbsession/3.3.100.57",
+      "hashPath": "awssdk.qldbsession.3.3.100.57.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LHbdc7ZBzKOqmvGpK1EkEqpFllPa3IOrEI7dIu+BZwr6A10zBpe2XpZHeNh87DGjEfHcAItwvh/Slah8tbnr7Q==",
+      "path": "microsoft.extensions.configuration/3.1.1",
+      "hashPath": "microsoft.extensions.configuration.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Msu6IzxV486nNmsasJQXB/c44DiVz7FqXCjIBnvmG2M8NGaVDIQra1qff9cEEkhqa+dGH+jf3mdggm8w9eX7BQ==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.1",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J+01OANCMbFEF0bu9hID3m61emMwU2m13WXYrZDCIoxneMPWdWFzpLmsMqT8kIPgCgb2+SQ/1UAQcGCH/ASIQ==",
+      "path": "microsoft.extensions.configuration.binder/3.1.1",
+      "hashPath": "microsoft.extensions.configuration.binder.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jg48cM12C8iqjpFMNXWEmJR/2jnmScV8Y8txVOayycLqHatLV2Cn4wuwj56KSOc/xVWwlWmq9Y5ebDH6awnexw==",
+      "path": "microsoft.extensions.dependencyinjection/3.1.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uKZr5b4w9nQE6UAXS4PqBFbg2qe6kS+pdsCbDG2kHjUaWT/B7EOcDraoR52H/4BoBIEH3By5co6Wioru7+v9Zg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SykGku44CIQJRM+eUzB61bGVNv0Lmgx70UAmhu1XLFXhP4I0rBSNJusfOlEpDN8T5JQsykIuM2lOd8J8nTnfAg==",
+      "path": "microsoft.extensions.logging/3.1.1",
+      "hashPath": "microsoft.extensions.logging.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4/1BLjd9Zvc87xlhfkIsAlHOgMnGJBQFIEmO3CUKLrf38nIFp3W7X+JoFiRmn20WAi5+l2sgUWS4ixaIuB3S0g==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p2faCNhzXyG5oLLOV8n8dwg2rfqS4aRpIWu4qgwZMq+al3133mAQ+Hb822iwRoj3qnKM8zY4A6Jz/Vm/xWHvrA==",
+      "path": "microsoft.extensions.options/3.1.1",
+      "hashPath": "microsoft.extensions.options.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tC5Eo5DbJA+NgiIw26R5c97N02tFvtfqstUxqb/4qXPLXI2IAIWSMUkh/1c9Gw59TT9hNkLwlmLErSPlHgyJVQ==",
+      "path": "microsoft.extensions.primitives/3.1.1",
+      "hashPath": "microsoft.extensions.primitives.3.1.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/katagiri/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/katagiri/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/katagiri/.nuget/packages/awssdk.core/3.5.0-beta</PkgAWSSDK_Core>
+    <PkgAWSSDK_QLDBSession Condition=" '$(PkgAWSSDK_QLDBSession)' == '' ">/Users/katagiri/.nuget/packages/awssdk.qldbsession/3.3.100.57</PkgAWSSDK_QLDBSession>
+    <PkgAWSSDK_QLDB Condition=" '$(PkgAWSSDK_QLDB)' == '' ">/Users/katagiri/.nuget/packages/awssdk.qldb/3.5.0-beta</PkgAWSSDK_QLDB>
+  </PropertyGroup>
+</Project>

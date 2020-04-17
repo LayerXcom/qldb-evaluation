@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Amazon.IonDotnet" Version="0.9.0-beta" />
+      <PackageReference Include="Amazon.IonHashDotnet" Version="0.9.0-beta" />
+      <PackageReference Include="Amazon.QLDB.Driver" Version="0.1.0-beta" />
+      <PackageReference Include="AWSSDK.Core" Version="3.5.0-beta" />
+      <PackageReference Include="AWSSDK.QLDB" Version="3.5.0-beta" />
+    </ItemGroup>
+
+</Project>
